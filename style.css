@@ -1,0 +1,150 @@
+/* --- Estilos Generales --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* --- Contenedor Principal --- */
+.container {
+    background: #ffffff;
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* --- Textos --- */
+.hero h1 {
+    font-size: 2rem;
+    color: #1a202c;
+    margin-bottom: 12px;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #4a5568;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+/* --- Imagen --- */
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    object-fit: cover;
+}
+
+/* --- Botón Principal WhatsApp --- */
+.cta-container {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.btn-whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #25d366;
+    color: white;
+    padding: 16px 20px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px; /* Bordes redondeados estilo cápsula */
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(37, 211, 102, 0.35);
+}
+
+.btn-whatsapp:hover {
+    background-color: #1ebe57;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(37, 211, 102, 0.45);
+}
+
+.btn-whatsapp i {
+    font-size: 1.4rem;
+}
+
+/* --- Sección Redes Sociales --- */
+.social-links {
+    border-top: 2px solid #e2e8f0;
+    padding-top: 25px;
+}
+
+.social-title {
+    font-size: 0.95rem;
+    color: #4a5568;
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column; /* Colocados uno debajo del otro */
+    gap: 15px; /* Espacio entre botones */
+}
+
+/* Base idéntica a WhatsApp para cada botón de red social */
+.btn-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px 20px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px; /* Redondeados exactos como el de WhatsApp */
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-social i {
+    font-size: 1.4rem;
+}
+
+/* --- Botón Instagram --- */
+.btn-instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    box-shadow: 0 6px 15px rgba(220, 39, 67, 0.35);
+}
+
+.btn-instagram:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(220, 39, 67, 0.45);
+    opacity: 0.95;
+}
+
+/* --- Botón TikTok --- */
+.btn-tiktok {
+    background-color: #000000;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.btn-tiktok:hover {
+    transform: translateY(-3px);
+    background-color: #111111;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+/* Efecto de sombra cian y roja en el icono de TikTok */
+.btn-tiktok i {
+    filter: drop-shadow(2px 0 0 #fe2c55) drop-shadow(-2px 0 0 #25f4ee);
+}
